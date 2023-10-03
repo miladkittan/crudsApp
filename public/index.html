@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Users Management System</h2>
+
+    <label for="type ID">Create new user by entering details below:</label>
+    <br>
+    <label for="type ID">ID:</label>
+    <input type="number" name="type ID" id="newID">
+    <br>
+    <label for="type ID">Name:</label>
+    <input type="text" name="type name" id="newName">
+    <br>
+    <label for="type ID">Age:</label>
+    <input type="number" name="type age" id="newAge">
+    <br>
+    <label for="type ID">City:</label>
+    <input type="text" name="type city" id="newCity">
+    <br>
+    <br>
+    <button onclick="createUser()">Create</button>
+    <button onclick="updateUser()">Update</button>
+    <br>
+    <br>
+    <label for="type ID">Search user by entering ID:</label>
+    <input type="number" name="type ID" id="typedID">
+    <button onclick="readUser()">Search</button>
+    <button onclick="deleteUser()">Delete</button>
+    <br>
+    <br>
+    <button onclick="printAllUsers()">Print all users</button>
+
+    <div id="result-table"></div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
