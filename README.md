@@ -1,4 +1,4 @@
-# CRUDs project using Node.js
+# CRUDs with UI project using Node.js
 
 ## Overview
 A simple Node.js user management system with a UI that allows users to create, read, update, and delete users from a JSON file.
